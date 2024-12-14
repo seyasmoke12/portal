@@ -1,0 +1,56 @@
+POST 192.168.169.108:5000.108/api/posts/create/service
+Content-Type: application/json
+
+{
+    "content":"content"
+}
+
+
+###
+POST 192.168.169.108:5000.108/api/posts/create/service
+Content-Type: application/json
+
+{
+  "title": "Premium tttttthhttttService",
+  "description": "Ttttttttttttthis is a premium service we offer.",
+  "photo":"ttt656858",
+  "whychooseus": [
+    { "description": "Fffffffffffast delivery" }
+  ]
+}
+
+###
+GET 192.168.169.108:5000.108/api/get/contacts
+
+
+###
+POST 192.168.169.108:5000.108/api/posts/services
+Content-Type: application/json
+
+{
+  "title": "Premium ........",
+  "description": "This ...........",
+  "photo":"786495744444444444",
+  "whychooseus": [
+    { "description": "bbtttttttttttbbb"}
+  ]
+}
+
+###
+PUT 192.168.169.108:5000.108/api/posts/update/service/57
+Content-Type: application/json
+
+{
+  "title": "Premium ........",
+  "description": "This ...........",
+  "photo":"786495744444444444",
+  "whychooseus": [
+    { "description": "bbtttttttttttbbb"}
+  ]
+}
+
+###
+DELETE 192.168.169.108:5000.108/api/posts/delete/service/3
+
+###
+GET http://192.168.8.30:5000/api/posts/services
